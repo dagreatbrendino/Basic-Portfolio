@@ -9,7 +9,22 @@
     background-color:#ffffff;
     border-bottom: solid #cccccc 5px;
     z-index: 100;
+    top: 0;
+}
 
+#tbhindheader{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+body{
+    background-image: url("../images/folk-pattern.png")
 }
 
 h1{
@@ -28,7 +43,8 @@ h1{
 }
 
 .contentbox{
-    margin: 400px auto 0px;
+    margin: 200px auto;
     width: 960px;
+    height: 500px;
     display: block;
 }
