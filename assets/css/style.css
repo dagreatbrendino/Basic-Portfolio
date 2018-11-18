@@ -45,6 +45,22 @@ h1{
 .contentbox{
     margin: 200px auto;
     width: 960px;
-    height: 500px;
     display: block;
+    background-color: white;  
+}
+
+#aboutMe{
+    border-bottom: lightgray solid 5px;
+}
+
+#photoMe{
+    width: 25%;
+    float: left;
+    margin-right: 5px;
+}
+#bio{
+    text-align: left;
+    display: inline-block;
+    overflow-wrap: break-word;
+
 }
