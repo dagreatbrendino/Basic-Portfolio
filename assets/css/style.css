@@ -7,7 +7,6 @@
     left: 0;
     right: 0;
     background-color:#ffffff;
-    border-bottom: solid #cccccc 5px;
     z-index: 100;
     top: 0;
 }
@@ -21,6 +20,7 @@
     margin: 0;
     top: 0;
     left: 0;
+    border-bottom: solid #cccccc 5px;
 }
 
 body{
@@ -28,10 +28,13 @@ body{
 }
 
 h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
     position: absolute;
+    border:25px solid #6ed3cf;
     margin-bottom: 0px;
     bottom: 0;
-    background-color: #4aaaa5
+    background-color: #6ed3cf;
+    color: white;
 }
 
 .navLinks{
@@ -46,21 +49,43 @@ h1{
     margin: 200px auto;
     width: 960px;
     display: block;
-    background-color: white;  
+    background-color: white; 
+    border: solid 1px #cccccc;
 }
 
 #aboutMe{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 25px;
+    margin-right: 25px;
     border-bottom: lightgray solid 5px;
+    color: #6ed3cf;
 }
 
 #photoMe{
     width: 25%;
     float: left;
-    margin-right: 5px;
+    margin-right: 15px;
+    margin-left: 25px;
 }
 #bio{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: left;
     display: inline-block;
-    overflow-wrap: break-word;
-
+    margin-right: 25px;
+}
+.footer{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    height: 50px;
+    background-color: rgb(61, 61, 61);
+    border-top: #6ed3cf solid 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+#copy{
+    margin-top: 25px;
+    color: rgb(167, 167, 167);
 }
