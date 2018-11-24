@@ -66,6 +66,18 @@ h1{
     margin-right: 0px;
     right: 0;
 }
+
+#ind:hover{
+    font-size: 101%;
+}
+
+#port:hover{
+    font-size: 101%;
+}
+
+#con:hover{
+    font-size: 101%;
+}
 /* generic container for holding content */
 .contentbox{
     display: block;
@@ -186,4 +198,13 @@ input{
     border-left: 20px #6ed3cf solid;
     border-right: 20px #6ed3cf solid;
     font-size: 20px;
+}
+
+#workingaway{
+    margin: 15px auto;
+    display: block;
+}
+
+#comingsoon{
+    margin: 15px 25px;
 }
